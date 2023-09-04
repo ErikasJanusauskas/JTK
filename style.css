@@ -1,3 +1,102 @@
+.pageHeader {
+    grid-column: 2;
+
+    margin-top: 32px;
+
+    display: grid;
+    grid-template-columns: max-content 1fr minmax(256px , 768px);
+    gap: 16px;
+}
+
+
+
+
+nav {
+    grid-column: 1;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.mainNavButton {
+    font-size: 24px;
+    font-family: 'Yeseva One', cursive;
+
+    text-decoration: none;
+
+    color: var(--accent);
+}
+
+.navButton {
+    font-size: 15px;
+    font-weight: 500;
+
+    text-decoration: none;
+
+    color: var(--accent);
+}
+
+.navButton:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+
+form {
+    grid-column: 3;
+
+    padding: 4px;
+
+    border-radius: 12px;
+    border: 1px solid var(--secondary);
+
+    background-color: var(--primary);
+
+    box-shadow: 0px 4px 16px 0px var(--shadow);
+
+    display: flex;
+}
+
+form input {
+    flex-grow: 1;
+
+    padding: 11px;
+    font-size: 14px;
+
+    border: none;
+
+    font-weight: 400;
+
+    color: var(--primary-text);
+    background-color: var(--primary);
+}
+
+form input:focus {
+    outline: none;
+}
+
+form button {
+    aspect-ratio: 1/1;
+
+    border-radius: 8px;
+    border: none;
+
+    background-color: var(--primary);
+
+    display: grid;
+    place-content: center;
+}
+
+form button:hover {
+    cursor: pointer;
+    background-color: var(--background);
+}
+
+
+
+
 header {
     grid-column: 2;
 
