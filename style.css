@@ -88,7 +88,7 @@ header p {
 
 .mainArticleFeed {
     grid-column: 2;
-    margin-top: 32px;
+    margin: 32px 0px;
     padding-top: 32px;
 
     border-top: 1px solid var(--shadow);
@@ -138,7 +138,7 @@ li a {
 
 li a:hover {
     cursor: pointer;
-    text-decoration: underline;
+    color: var(--accent);
 }
 
 
@@ -172,6 +172,10 @@ article:first-child {
     font-weight: 300;
 }
 
+.articleHeader p:first-child {
+    color: var(--accent);
+}
+
 article h2 {
     font-size: 24px;
     font-weight: 600;
@@ -181,8 +185,6 @@ article p {
     font-size: 15px;
     color: #1A1A19;
 }
-
-
 
 
 
