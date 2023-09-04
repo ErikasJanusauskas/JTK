@@ -41,6 +41,7 @@ header p {
     padding: 16px 16px 10px 16px;
 
     border-radius: 12px;
+    border: 1px solid var(--secondary);
 
     text-decoration: none;
 
